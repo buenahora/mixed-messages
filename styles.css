@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+
+}
+ 
+#title {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 12.5%;
+
+}
+
+#button {
+    margin-top: 12.5%;
+    width: 20vw;
+    height: auto;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2px;
+}
+
+@keyframes example {
+    from {    
+        border-color: black;
+    }
+    to {
+        background-color: #1a1a1a;
+        color: white;
+        box-shadow: black 0 0 3px;
+    }
+  }
+
+#button:hover {
+    animation: 1s example forwards ease-out ;
+}
+
+#showQuote {
+    font-size: 2rem;
+    font-weight:500;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
